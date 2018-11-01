@@ -53,7 +53,8 @@ def find_cool(cool)
 end 
 
 def organize_schools(schools)
-  schools.each_with_object({}) do  |(name, data), res|
-    (res[data[:location]] ||= []) << name
+  schools.each_with_object({}) do  |(name, data), result|
+    (result[data[:location]] ||= []) << name
+    binding.pry 
   end 
 end 
