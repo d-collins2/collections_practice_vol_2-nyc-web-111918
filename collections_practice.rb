@@ -66,7 +66,8 @@ def organize_schools(schools)
         array << name 
       end 
     end 
+    binding.pry 
   end 
-  binding.pry 
+  
 end 
 
