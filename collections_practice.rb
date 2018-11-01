@@ -53,6 +53,7 @@ def find_cool(cool)
 end 
 
 def organize_schools(schools)
+  p schools
   hash = {}
   schools.each do |name, location|
     location.each do |key, value|
