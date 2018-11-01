@@ -68,8 +68,9 @@ def organize_schools(schools)
         # binding.pry 
     end 
     # binding.pry 
+    hash[location].uniq 
   end 
-  hash.uniq 
+  hash 
   
 end 
 
