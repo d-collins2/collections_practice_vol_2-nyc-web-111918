@@ -62,12 +62,12 @@ def organize_schools(schools)
   
   hash.each do |location, array|
     array.each do |el|
-    schools.each do |name, location_hash|
-      if location = location_hash[:location]
-        el << name 
+      schools.each do |name, location_hash|
+        if location = location_hash[:location]
+          el << name 
+        end 
+         binding.pry 
       end 
-       binding.pry 
-    end 
     end 
     binding.pry 
   end 
