@@ -38,9 +38,10 @@ def merge_data(keys, data)
   p data 
   p keys 
   data.each do |key, value| 
-    key.each do |k, v| 
-      keys.
-      
+    key.each do |name, name_data| 
+      keys.each do |k, v|
+        binding.pry 
+      end 
     end 
   end 
 end 
