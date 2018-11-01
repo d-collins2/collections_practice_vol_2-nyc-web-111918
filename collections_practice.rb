@@ -53,6 +53,9 @@ def find_cool(cool)
 end 
 
 def organize_schools(schools)
-  
+  hash = {}
+  schools.each do |k, v|
+    binding.pry 
+  end 
 end 
 
