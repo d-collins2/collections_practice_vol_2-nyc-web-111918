@@ -65,6 +65,7 @@ def organize_schools(schools)
       if location = location_hash[:location]
         array << name 
       end 
+       binding.pry 
     end 
     binding.pry 
   end 
