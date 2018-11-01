@@ -53,7 +53,7 @@ def find_cool(cool)
 end 
 
 def organize_schools(schools)
-  schools.each_with_object
+  schools.each_with_object({})
   
 end 
 
