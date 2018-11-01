@@ -55,6 +55,5 @@ end
 def organize_schools(schools)
   schools.each_with_object({}) do  |(name, data), result|
     (result[data[:location]] ||= []) << name
-    binding.pry 
   end 
 end 
