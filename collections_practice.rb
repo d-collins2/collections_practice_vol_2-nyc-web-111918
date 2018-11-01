@@ -53,27 +53,7 @@ def find_cool(cool)
 end 
 
 def organize_schools(schools)
-  p schools
-  hash = {}
-  schools.each do |name, location|
-    location.each do |key, value|
-      hash[value] = []
-    end 
-  end 
-  len = schools.keys.length 
-  count = 0 
-  hash.each do |location, array|
-    schools.each do |name, location_hash|
-      if location = location_hash[:location]
-        hash[location] << name
-        count += 1 
-        break if count == len 
-      end 
-    end 
-    # binding.pry 
-  
-  end 
-  hash 
+  schools.each_with_object
   
 end 
 
