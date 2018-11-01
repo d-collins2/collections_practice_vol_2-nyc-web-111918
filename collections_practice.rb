@@ -49,7 +49,7 @@ def merge_data(keys, data)
 end 
 
 def find_cool(cool)
-  
+  cool.select {|name_hash| name_hash[:temperature] == "cool"}
 end 
 
 def organize_schools(schools)
