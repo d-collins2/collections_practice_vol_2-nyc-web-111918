@@ -57,7 +57,3 @@ def organize_schools(schools)
     (res[data[:location]] ||= []) << name
   end 
 end 
-
-hash.each_with_object({}) do |(name, data), res|
-  (res[data[:location]] ||= []) << name
-end
