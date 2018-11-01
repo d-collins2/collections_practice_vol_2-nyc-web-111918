@@ -42,7 +42,6 @@ def merge_data(keys, data)
         if k.values == [name] 
           array << name_data.merge(k)
         end 
-        binding.pry
       end 
     end 
   end 
