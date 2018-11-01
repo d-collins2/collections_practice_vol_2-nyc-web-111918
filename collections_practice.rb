@@ -59,9 +59,8 @@ def organize_schools(schools)
       hash[value] = []
     end 
   end 
-  
-  schools.each do |name, location_hash|
-    hash.each do |location, array|
+  hash.each do |location, array|
+    schools.each do |name, location_hash|
       if location = location_hash[:location]
         array << name 
       end 
