@@ -60,7 +60,7 @@ def organize_schools(schools)
     end 
   end 
   
-  schools.each do |name, location|
+  schools.each do |name, location_hash|
     hash.each do |location, array|
     binding.pry
   end 
