@@ -39,7 +39,7 @@ def merge_data(keys, data)
   data.each do |key, value| 
     key.each do |name, name_data| 
       keys.each do |k, v|
-        if k.values == name 
+        if k.values == [name] 
           array << name_data.merge(k)
         end 
         binding.pry
