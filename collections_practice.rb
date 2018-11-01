@@ -69,7 +69,7 @@ def organize_schools(schools)
     end 
     # binding.pry 
   end 
-  hash 
+  hash.uniq 
   
 end 
 
